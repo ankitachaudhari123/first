@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+
+<style type="text/css">
+	
+	*{
+		margin:0;
+		padding: 0;
+	}
+    .mobile-view{
+    	display: none;
+    }
+
+    .navbar{
+    	width: 100%;
+    	height: 80px;
+    	background: blue;
+    }
+    .navbar-mobile{
+    	width: 100%;
+    	height: 80px;
+    	background: red;
+    	position: fixed;
+    	top: 0;
+    }
+    .subject{
+    	width: 90%;
+    	height: 250px;
+    	background:white;
+    	margin-top: 20px;
+    	border-radius: 15px;
+    	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .subject-active{
+    	background: blue;
+    	color: white;
+    }
+    .view{
+    	text-decoration: none;
+    }
+    .view-active{
+    	color: white;
+    }
+    .info{
+    	width: 90%;
+    	height: 400px;
+    }
+
+
+  @media only screen and (max-width: 600px) {
+	 .mobile-view{
+    	display: block;
+     }
+	    .web-view{
+	    	display: none;
+	    }
+    
+	
+   } 
+
+
+</style>
+<body>
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <section class="web-view">
+	<div class="navbar">
+		
+	</div>
+</section>
+
+
+<section class="mobile-view">
+	
+
+	<div style="height: 100px;">
+		
+	</div>
+
+	<center>
+
+
+		<div class="info">
+			<p style="
+		color: #6535ee;
+		width: 120px;
+		height: 20px;
+		background: #eeeaff;
+		border-radius: 10px;
+		line-height: 20px;
+		text-align: center;">popular subject</p>
+
+			<h1 style="margin-top: 20px;">provide it & tecnol<br>subject for you</h1>
+
+			<p style="margin-top: 20px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			</p>
+
+
+
+			<div style="text-align: left; margin-top: 20px;margin-bottom: 20px;">
+
+			<p style="border-left: 3px solid #f2277e; padding: 0px 10px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat.</p>
+
+
+			</div>
+
+
+
+
+
+			<button style="border: none; width: 120px; height: 30px; background: #f2277e; border-radius: 7px; color: white;">Explore More &nbsp;<i class="fa-solid fa-arrow-right"></i></button>
+
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+	<div class="subject subject-active"   data-aos="fade-up" data-aos-easing="ease-in-out">
+		<img src="img/icon/5.png" style="margin-top: 20px;">
+		<p style="padding: 5px 10px;margin-top: 20px;margin-bottom: 20px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. </p>
+		<a href="" class="view view-active">view more </a>
+	</div>
+
+	<div class="subject"  data-aos="fade-up" data-aos-easing="ease-in-out">
+		<img src="img/icon/2.png" style="margin-top: 20px;">
+		<p style="padding: 5px 10px;margin-top: 20px;margin-bottom: 20px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. </p>
+		<a href="" class="view ">view more </a>
+	</div>
+
+	<div class="subject"  data-aos="fade-up" data-aos-easing="ease-in-out"> 
+		<img src="img/icon/3.png" style="margin-top: 20px;">
+		<p style="padding: 5px 10px;margin-top: 20px;margin-bottom: 20px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. </p>
+		<a href="" class="view">view more </a>
+	</div>
+
+	<div class="subject"  data-aos="fade-up" data-aos-easing="ease-in-out">
+		<img src="img/icon/4.png" style="margin-top: 20px;">
+		<p style="padding: 5px 10px;margin-top: 20px;margin-bottom: 20px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. </p>
+		<a href="" class="view">view more </a>
+	</div>
+
+
+
+
+	<div class="navbar-mobile">
+		
+	</div>
+
+</section></center>
+
+
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+
+</body>
+</html>
